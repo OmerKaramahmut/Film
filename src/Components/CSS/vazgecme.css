@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Protest+Strike&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+.VazgecmeContent {
+  padding: 2rem 10%;
+  display: flex;
+  height: auto;
+  background-color: #54a2ae;
+}
+
+.afis {
+  padding: 10px 0;
+  width: 35%;
+}
+
+.afis img {
+  width: 400px;
+  height: 500px;
+  box-shadow: 5px 5px 5px black;
+}
+
+.vazgecmeInfo {
+  width: 65%;
+  padding: 5px 0;
+}
+
+.reject h3 {
+  margin-top: 1rem;
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 3rem;
+  color: white;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0)
+  );
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  padding: 5px;
+  cursor: default;
+  height: 280px;
+}
+
+.VazgecmeContent h2 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: xx-large;
+  display: flex;
+  justify-content: center;
+  font-family: "Protest Riot", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+}
+
+.cast {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+  gap: 2rem;
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+}
+hr {
+  border: none;
+  border-bottom: 1px solid white;
+ 
+}
+
+.cast p strong {
+  color: #6475a8;
+  font-size: 1.3rem;
+}
+
+.castwo {
+  display: flex;
+  margin-top: 2rem;
+}
+.castwo h1 {
+  font-family: "Orbitron", sans-serif;
+  font-size: 1.5rem;
+}
+
+.castwo strong {
+  font-size: x-large;
+  color: #6475a8;
+  font-size: 2rem;
+}
+
+@media only screen and (max-width:600px) {
+  .afis img{
+    width: 350px;
+    margin: 0;
+    padding: 0;
+  }
+  .VazgecmeContent{
+    display: flex;
+    flex-direction: column;
+  }
+  .vazgecmeInfo {
+    width: 100%;
+  }
+  .cast , .castwo{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .vazgecmeInfo{
+    height: 800px;
+  }
+  .vazgecmeInfo h3{
+    height: 600px;
+  }
+
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 600px){
+  .afis img{
+    width: 350px;
+    margin: 0;
+    padding: 0;
+   
+  }
+  .afis{
+justify-content: center;
+display: flex;
+width: 100%;
+  }
+  .VazgecmeContent{
+    display: flex;
+    flex-direction: column;
+  }
+  .vazgecmeInfo {
+    width: 100%;
+  }
+  .cast , .castwo{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+}
+

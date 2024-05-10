@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+.SliuetContent {
+  padding: 0 10%;
+  display: flex;
+  height: auto;
+  background-color: #0e111a;
+  padding: 2rem 10%;
+}
+
+.afisSliuet {
+  padding: 10px 0;
+  width: 35%;
+}
+
+.afisSliuet img {
+  width: 400px;
+  height: 500px;
+  box-shadow: 5px 5px 5px black;
+ 
+}
+
+.sliuetInfo {
+  width: 65%;
+  padding: 5px 0;
+}
+
+.rejectSliuet h3 {
+  margin-top: 1rem;
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 3rem;
+  color: white;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0)
+  );
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  padding: 5px;
+  cursor: default;
+  height: 280px;
+}
+
+.SliuetContent h2 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: xx-large;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-family: "Protest Riot", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.castSliuet {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+  gap: 2rem;
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  color: white;
+}
+hr {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid white;
+}
+
+.castSliuet p strong {
+  color: #6475a8;
+  font-size: 1.5rem;
+}
+
+.castwoSliuet {
+  display: flex;
+  margin-top: 2rem;
+}
+.castwoSliuet h1 {
+  font-family: "Orbitron", sans-serif;
+  font-size: 1.5rem;
+  color: white;
+}
+.castwoSliuet strong {
+  font-size: x-large;
+  color: #6475a8;
+  font-size: 2rem;
+}
+
+@media only screen and (max-width: 600px){
+  .afisSliuet img{
+    width: 350px;
+    margin: 0;
+    padding: 0;
+  }
+  .SliuetContent{
+    display: flex;
+    flex-direction: column;
+  }
+  .sliuetInfo{
+    width: 100%;
+  }
+  .castSliuet{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .sliuetInfo{
+    height: 800px;
+  }
+  .sliuetInfo h3{
+    height: 600px;
+  }
+}
+
+@media only screen and (max-width: 1025px) and (min-width: 600px){
+  .afisSliuet img{
+    width: 350px;
+    margin: 0;
+    padding: 0;
+  }
+  .afisSliuet{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+  .SliuetContent{
+    display: flex;
+    flex-direction: column;
+  }
+  .sliuetInfo{
+    width: 100%;
+  }
+  .castSliuet{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+}
+

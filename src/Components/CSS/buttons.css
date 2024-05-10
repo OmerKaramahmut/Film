@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+button {
+  border: none;
+}
+
+.header-contact,
+.header-fragman {
+  background: -webkit-linear-gradient(0deg, transparent 50%, #27e8a7);
+  background-size: 400px 100px;
+  border: 2px solid #27e8a7;
+  transition: 0.8s;
+  color: white;
+  height: 60px;
+  position: relative;
+  width: 180px;
+  font-family: "Exo 2", sans-serif;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.header-contact {
+  padding: 1.5rem;
+  margin: 1rem;
+  cursor: pointer;
+}
+.header-fragman {
+  padding: 1.5rem;
+  margin: 1rem;
+  cursor: pointer;
+}
+.header-fragman:hover {
+  background-position: 180px 0;
+  color: white;
+}
+
+.header-contact:hover {
+  background-position: 180px 0;
+  color: white;
+}
+
+.castButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.castButton button {
+  border-radius: 25px;
+}
+
+.castSliuetButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+.castSliuetButton button {
+  border-radius: 25px;
+}

@@ -1,0 +1,267 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+* {
+  box-sizing: border-box;
+}
+.about-cards {
+  height: 550px;
+  width: 100%;
+  padding: 0 10%;
+  display: flex;
+  background-color: #0e111a;
+  padding-top: 5rem;
+  color: white;
+  font-family: "Gowun Dodum", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+ 
+}
+.about-cards h1,
+span {
+  font-family: "Protest Guerrilla", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+span {
+  color: #6475a8;
+  font-weight: 400;
+}
+.aboutImg {
+  width: 40%;
+}
+.aboutText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 60%;
+  position: relative;
+}
+.transparanText {
+  margin: 0;
+  top: 0;
+  left: 0;
+  color: rgba(95, 104, 132, 0.1);
+  font-size: 4.5rem;
+  position: relative;
+  z-index: 9999999;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  margin-left: 9rem;
+}
+
+.aboutText h3 {
+  margin-top: 1rem;
+}
+img {
+  width: 350px;
+  height: 350px;
+
+}
+
+hr {
+  width: 15px;
+  margin-top: 2rem;
+  display: flex;
+  align-items: flex-start;
+}
+
+.aboutTextLeft {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: center;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.aboutTextRight h3 {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.aboutTextRight {
+  display: flex;
+  align-items: flex-start;
+  text-align: start;
+  flex-direction: column;
+  margin-left: 10rem;
+  margin-top: 2rem;
+}
+.aboutTextRight p {
+  margin-top: 1rem;
+}
+
+.about-cards-two {
+  width: 100%;
+  padding: 0 10%;
+  display: flex;
+  background-color: #0e111a;
+  color: white;
+  padding-bottom: 5rem;
+  padding-top: 5rem;
+}
+
+.aboutTextLeftTwo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: start;
+}
+.aboutTextLeftTwo h3 {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-top: 10rem;
+  text-align: flex-start;
+  
+}
+
+.aboutTextLeftTwo p {
+  margin-top: 2rem;
+}
+
+.button {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 100%;
+  margin-top: 2rem;
+  padding: 0 1rem;
+}
+
+.aboutButton {
+  background: -webkit-linear-gradient(0deg, transparent 50%, #27e8a7);
+  background-size: 400px 100px;
+  border: 2px solid #101815;
+  transition: 0.8s;
+  color: white;
+  height: 50px;
+  position: relative;
+  width: 180px;
+  font-family: "Exo 2", sans-serif;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.aboutButton:hover {
+  background-position: 180px 0;
+  color: white;
+}
+
+.aboutButton:hover .buttonIcon {
+  transform: translate(10px);
+  transition: all ease-in 0.5s;
+}
+
+.aboutImgTwo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 60%;
+  position: relative;
+
+}
+
+.aboutTextTwo {
+  display: flex;
+  width: 40%;
+  align-items: flex-start;
+  text-align: start;
+}
+
+@media only screen and (max-width:600px) {
+  .about-cards{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+
+.aboutText{
+  width: 100%;
+}
+.aboutTextLeft{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+.aboutTextRight{
+  margin: 0;
+}
+.aboutTextRight{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.transparanText{
+  display: none;
+}
+.aboutImgTwo{
+  display: none;
+}
+.about-cards-two{
+  padding-top: 2rem;
+}
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 600px) {
+  .about-cards{
+    display: flex;
+    flex-direction: row;
+    height: auto;
+  }
+
+.aboutText{
+  width: 100%;
+}
+.aboutTextLeft{
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin: 0;
+}
+.aboutTextRight{
+  margin: 0;
+  display: flex;
+  justify-content: flex-start;
+  width: 75%;
+  text-align: center;
+  padding-left: 5rem;
+}
+.aboutTextRight h2{
+  font-size: 1.5rem;
+}
+.transparanText{
+display: none;
+}
+.aboutImg{
+  width: 35%;
+}
+ .aboutTextLeft hr{
+  width: 80%;
+}
+.aboutImg img{
+width: 350px;
+height: 350px;
+}
+.aboutImgTwo img{
+  width: 350px;
+  height: 350px;
+}
+.about-cards-two{
+  padding-top: 2rem;
+}
+
+}
