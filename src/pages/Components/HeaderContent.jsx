@@ -8,7 +8,7 @@ import Buttons from "../Components/Buttons";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from 'react';
-import kameraContent from "../UI/kamera.png";
+import kameraContent from "../IMG/kamera.png";
 
 
 

@@ -3,7 +3,7 @@ import "./CSS/vazgecme.css"
 import ModalOne from "./ModalOne";
 import Aos from "aos";
 import { useEffect } from "react";
-import vazgecme from "../UI/vazgecme.jpg";
+import vazgecme from "../IMG/vazgecme.jpg";
 
 const FilmVazgecme = () => {
   useEffect(() => {

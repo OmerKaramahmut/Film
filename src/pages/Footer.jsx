@@ -4,7 +4,7 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import XIcon from "@mui/icons-material/X";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import EmailIcon from "@mui/icons-material/Email";
-import kameraLogo from "../UI/kameralogoyeni.png";
+import kameraLogo from "./IMG/kameralogoyeni.png";
 
 const Footer = () => {
   return (

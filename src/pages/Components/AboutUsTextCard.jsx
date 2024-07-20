@@ -3,9 +3,10 @@ import "./CSS/aboutUstextCard.css"
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import ahmed from "../UI/ahmed.jpg";
-import halit from "../UI/halit-uz.jpg";
-import dogu from "../UI/foto3.jpg";
+import ahmed from "../IMG/ahmed.jpg";
+import halit from "../IMG/halit-uz.jpg";
+import dogu from "../IMG/foto3.jpg";
+
 
 const AboutUsTextCard = () => {
   useEffect(() => {

@@ -1,8 +1,8 @@
 import "./Header.css";
-import HeaderInfo from "../Components/HeaderInfo";
-import HeaderContent from "../Components/HeaderContent";
+import HeaderInfo from "./Components/HeaderInfo";
+import HeaderContent from "./Components/HeaderContent";
 import { useState } from "react";
-import kameraLogo from "../UI/kameralogoyeni.png";
+import kameraLogo from "./IMG/kameralogoyeni.png";
 
 
 const Header = () => {

@@ -1,5 +1,5 @@
 import React from "react";
-import AboutUsTextCard from "../Components/AboutUsTextCard";
+import AboutUsTextCard from "./Components/AboutUsTextCard";
 
 const AboutUs = () => {
   return (

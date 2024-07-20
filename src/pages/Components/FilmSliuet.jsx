@@ -3,7 +3,7 @@ import "./CSS/Sliuet.css"
 import ModalTwo from "./ModalTwo";
 import Aos from "aos";
 import { useEffect } from "react";
-import afis2 from "../UI/afis2.png";
+import afis2 from "../IMG/afis2.png";
 
 const FilmSliuet = () => {
   useEffect(() => {

@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import Modal from "react-modal";
 import './CSS/Modal.css'
-import video1 from "../UI/fragman2.mp4";
+import video1 from "../IMG/fragman2.mp4";
 Modal.setAppElement("#root");
 
 const customStyles = {
